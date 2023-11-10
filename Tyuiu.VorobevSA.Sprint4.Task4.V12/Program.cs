@@ -59,9 +59,15 @@ namespace Tyuiu.VorobevSA.Sprint4.Task4.V12
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            int res = service1.Calculate(m);
-
-            Console.WriteLine("кол-во отриц элем=" + res);
+            Console.WriteLine("Массив новый ");
+            m = service1.Calculate(m);
+            for (int i = 0; i < r; i++)
+            {
+                for(int j = 0; j < c; j++)
+                {
+                    Console.Write(m[i, j] + "\t");
+                }
+            }
 
             Console.ReadKey();
         }
