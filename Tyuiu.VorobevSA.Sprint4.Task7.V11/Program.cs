@@ -35,7 +35,7 @@ namespace Tyuiu.VorobevSA.Sprint4.Task7.V11
 
             string str = "56789012";
 
-            int index = 0;
+            int index = 0; 
 
             Console.WriteLine("\nМассив:");
             for (int i = 0; i < rows; i++)

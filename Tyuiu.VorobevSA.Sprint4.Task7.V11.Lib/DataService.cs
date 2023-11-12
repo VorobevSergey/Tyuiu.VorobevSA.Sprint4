@@ -8,7 +8,7 @@ using tyuiu.cources.programming.interfaces.Sprint4;
 namespace Tyuiu.VorobevSA.Sprint4.Task7.V11.Lib
 {
     public class DataService : ISprint4Task7V11
-    {
+    { 
         public int Calculate(int n, int m, string value)
         {
             int[,] mtrx = new int[n, m];
